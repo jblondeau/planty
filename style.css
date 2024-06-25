@@ -15,6 +15,24 @@
 	Text Domain: hello-child
 	Tags: accessibility-ready, flexible-header, custom-colors, custom-menu, custom-logo, featured-images, rtl-language-support, threaded-comments, translation-ready,
 */
-.hfe-menu-item:hover{
-	font-weight: 600 !important;
+:root {
+  --rose: #dc9f96;
+  --red: #c02e44;
+}
+
+#menu-item-76 {
+  background-color: var(--rose);
+}
+#menu-item-76:hover {
+  background-color: var(--red);
+}
+#menu-item-76 a {
+  color: #ffffff;
+  font-weight:700 !important;
+}
+
+#menu-item-77:hover a,
+#menu-item-78:hover a {
+  font-weight:700 !important;
+  font-size: 15px;
 }
