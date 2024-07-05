@@ -18,6 +18,7 @@
 :root {
   --rose: #dc9f96;
   --red: #c02e44;
+  --rose-button:#E0B9B4;
 }
 
 #menu-item-76 {
@@ -28,11 +29,47 @@
 }
 #menu-item-76 a {
   color: #ffffff;
-  font-weight:700 !important;
+  font-weight: 700 !important;
 }
 
 #menu-item-77:hover a,
 #menu-item-78:hover a {
-  font-weight:700 !important;
+  font-weight: 700 !important;
   font-size: 15px;
+}
+
+#flower_rencontre{
+	position: absolute;
+	left:10rem;
+}
+
+input[type=text],input[type=email]{
+	width:383px!important;
+	height: 71px;
+	border-radius: 7px!important;
+	margin-top:15px;
+}
+
+textarea{
+	width:383px!important;
+	height: 237px!important;
+	border-radius: 7px!important;
+	margin-top: 15px!important;
+}
+
+input[type=submit]{
+	width:198px!important;
+	height: 55px!important;
+	margin-left: 50%;
+    transform: translateX(-50%);
+	background-color: var(--rose-button);
+	border:0px;
+	color:#ffffff;
+}
+
+#leaf_rencontrer{
+	position: absolute;
+	left:31rem;
+	top:30rem;
+	z-index: 0;
 }
