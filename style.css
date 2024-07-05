@@ -35,12 +35,12 @@
 #menu-item-77:hover a,
 #menu-item-78:hover a {
   font-weight: 700 !important;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #flower_rencontre{
 	position: absolute;
-	left:10rem;
+	left:10%;
 }
 
 input[type=text],input[type=email]{
