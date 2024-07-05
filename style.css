@@ -57,6 +57,11 @@ textarea{
 	margin-top: 15px!important;
 }
 
+label{
+	font-family: 'Syne';
+	font-size:20px;
+}
+
 input[type=submit]{
 	width:198px!important;
 	height: 55px!important;
