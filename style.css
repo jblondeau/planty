@@ -19,6 +19,7 @@
   --rose: #dc9f96;
   --red: #c02e44;
   --rose-button:#E0B9B4;
+  --green : #3B8E46
 }
 
 #menu-item-76 {
@@ -40,7 +41,7 @@
 
 #flower_rencontre{
 	position: absolute;
-	left:10%;
+	left:10%è;
 }
 
 input[type=text],input[type=email]{
@@ -77,4 +78,13 @@ input[type=submit]{
 	left:31rem;
 	top:30rem;
 	z-index: 0;
+}
+
+.acc_avis{
+	color:var(--green)!important;
+	margin:0;
+	padding:0;
+	font-family: 'Syne'!important;
+	font-weight: 700!important;
+	font-size: 30px;
 }
