@@ -18,8 +18,8 @@
 :root {
   --rose: #dc9f96;
   --red: #c02e44;
-  --rose-button:#E0B9B4;
-  --green : #3B8E46
+  --rose-button: #e0b9b4;
+  --green: #3b8e46;
 }
 
 #menu-item-76 {
@@ -39,58 +39,97 @@
   font-size: 14px;
 }
 
-#flower_rencontre{
-	position: absolute;
-	left:10%è;
+#flower_rencontre {
+  position: absolute;
+  left: 10%è;
 }
 
-input[type=text],input[type=email]{
-	width:383px!important;
-	height: 71px;
-	border-radius: 7px!important;
-	margin-top:15px;
+input[type="text"],
+input[type="email"] {
+  width: 383px !important;
+  height: 71px;
+  border-radius: 7px !important;
+  margin-top: 10px;
 }
 
-textarea{
-	width:383px!important;
-	height: 237px!important;
-	border-radius: 7px!important;
-	margin-top: 15px!important;
+textarea {
+  width: 383px !important;
+  height: 237px !important;
+  border-radius: 7px !important;
+  margin-top: 10px !important;
 }
 
-label{
-	font-family: 'Syne';
-	font-size:20px;
+label {
+  font-family: "Syne";
+  font-size: 16px;
 }
 
-input[type=submit]{
-	width:198px!important;
-	height: 55px!important;
-	margin-left: 50%;
-    transform: translateX(-50%);
-	background-color: var(--rose-button);
-	border:0px;
-	color:#ffffff;
+input[type="submit"] {
+  width: 198px !important;
+  height: 55px !important;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--rose-button);
+  border: 0px;
+  color: #ffffff;
 }
 
-#leaf_rencontrer{
-	position: absolute;
-	left:31rem;
-	top:30rem;
-	z-index: 0;
+#leaf_rencontrer {
+  position: absolute;
+  left: 31rem;
+  top: 30rem;
+  z-index: 0;
 }
 
-.acc_avis{
-	color:var(--green)!important;
-	margin:0;
-	padding:0;
-	font-family: 'Syne'!important;
-	font-weight: 700!important;
-	font-size: 30px;
+.acc_avis {
+  color: var(--green) !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Syne" !important;
+  font-weight: 700 !important;
+  font-size: 30px;
 }
-.flexbox{
-	flex-direction: row!important;
+.flexbox {
+  display: flex;
+  flex-direction: row !important;
+  text-align: center;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
 }
-.parfum{
-	width:25%;
+.parfum {
+  width: 22.5%;
+  margin-left: 2.5%;
+}
+
+.wpcf7-number {
+  width: 60px !important;
+  height: 56px;
+}
+
+.commander_titre_2 {
+  margin-left: 12.5%;
+}
+
+.commander_titre {
+  /* */
+  font-family: "Syne";
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.commander_form {
+  text-align: left;
+  width: 50%;
+  color: white;
+  font-family: "Syne";
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 5%;
+}
+.commander_form_border {
+  border-right: solid 1px white;
 }
