@@ -88,3 +88,9 @@ input[type=submit]{
 	font-weight: 700!important;
 	font-size: 30px;
 }
+.flexbox{
+	flex-direction: row!important;
+}
+.parfum{
+	width:25%;
+}
