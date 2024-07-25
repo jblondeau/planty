@@ -41,19 +41,21 @@
 
 #flower_rencontre {
   position: absolute;
-  left: 10%è;
+  left: 10%;
 }
 
 input[type="text"],
 input[type="email"] {
-  width: 383px !important;
+  max-width: 383px !important;
+  width:100%;
   height: 71px;
   border-radius: 7px !important;
   margin-top: 10px;
 }
 
 textarea {
-  width: 383px !important;
+  max-width: 383px !important;
+  width:100%;
   height: 237px !important;
   border-radius: 7px !important;
   margin-top: 10px !important;
@@ -76,7 +78,7 @@ input[type="submit"] {
 
 #leaf_rencontrer {
   position: absolute;
-  left: 31rem;
+  left: 26rem;
   top: 30rem;
   z-index: 0;
 }
@@ -109,11 +111,10 @@ input[type="submit"] {
 }
 
 .commander_titre_2 {
-  margin-left: 12.5%;
+  margin-left: 10%;
 }
 
 .commander_titre {
-  /* */
   font-family: "Syne";
   color: #ffffff;
   font-weight: 700;
@@ -129,7 +130,78 @@ input[type="submit"] {
   font-size: 16px;
   font-weight: 400;
   margin-left: 5%;
+  padding-right: 2%;
 }
 .commander_form_border {
   border-right: solid 1px white;
+}
+
+@media only screen and (max-width: 1300px) {
+  #flower_rencontre {
+    display: none;
+  }
+  #leaf_rencontrer {
+    display: none;
+  }
+  #rencontrer_leaf {
+    display: none;
+  }
+  #menu-item-76:hover a{
+    background-color: var(--red);
+  }
+  #menu-item-76 a {
+    color: #ffffff;
+    background-color: var(--rose);
+    font-weight: 700 !important;
+  }
+  input[type="submit"] {
+    text-align:center;
+  }
+}
+
+@media only screen and (max-width: 1165px) {
+  .leaf_acc {
+    display:none;
+  }
+  .elementor-element-e9ad451{
+    width:100%!important;
+    transform: translate(110%);
+  }
+  .elementor-heading-title{
+    font-size: 2rem!important;
+  }
+  .flexbox {
+    flex-direction: column !important;
+  }
+  .commander_form {
+    text-align: center;
+    width: 100%;
+  }
+  .commander_form_border {
+    border-right: none;
+    border-bottom: solid 1px white;
+  }
+  .parfum {
+    width: 100%!important;
+  }
+  .wpcf7-number {
+    width: 100%;
+    transform: translateY(-100%);
+    margin-left:20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .elementor-element-e9ad451{
+    width:100%!important;
+    transform: translate(0%);
+  }
+  .elementor-heading-title{
+    font-size: 1.5rem!important;
+  }
+  .wp-image-28,.wp-image-27,.wp-image-14{
+    height:70px!important;
+    width:100%!important;
+    text-align:center;
+  }
 }
