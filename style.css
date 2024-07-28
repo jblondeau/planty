@@ -140,6 +140,19 @@ input[type="submit"] {
   .commander_titre {
     font-size: 1.25rem;
   }
+  .elementor-heading-title {
+    font-size: 1.5rem !important;
+  }
+  #menu-item-76 {
+    background-color: var(--rose);
+  }
+  #menu-item-76:hover {
+    background-color: var(--red);
+  }
+  #menu-item-76 a {
+    color: #ffffff;
+    font-weight: 700 !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -149,13 +162,7 @@ input[type="submit"] {
   .elementor-heading-title {
     font-size: 1.5rem !important;
   }
-  .wp-image-28,
-  .wp-image-27,
-  .wp-image-14 {
-    height: 70px !important;
-    width: 100% !important;
-    text-align: center;
-  }
+
   .flexbox {
     flex-direction: column !important;
   }
